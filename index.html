@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Luteach</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Aplica y sé un Luteacher </h1>
+        <p>¡Se parte de esta gran comunidad!</p>
+        <form action="">
+            <label for="">Primer nombre</label><br>
+            <input type="text" id="fname" name="firstname" minlength="1" placeholder="Luke" required>
+            <br>
+            <label for="">Apellido</label><br>
+            <input type="text" id="lastname" name="lastname" minlength="1" placeholder="Skywalker" required>
+            <br>
+            <label for="">Email</label><br>
+            <input type="email" id="email" name="email" minlength="6" placeholder="you@domain.com" required>
+            <br>
+            <label for="">Universidad</label><br>
+            <select type="text" id="originplanet" name="originplanet" required>
+                <option value="">Selecciona una universidad</option>
+                <option value="">UNI</option>
+                <option value="">UTEC</option>
+                <option value="">PUCP</option>
+                <option value="">UNMSM</option>
+                <option value="">other</option>
+<br>
+            </select>
+            <label for="">Cuéntanos</label><br>
+            <textarea name="msg" id="msg" placeholder="Por qué quieres ser parte de nosotros? (max 150 caracteres)" minlength="10" maxlength="150" ></textarea>
+            <br>          
+            <button>Enviar</button>
+            <img src="./logoBlanco.png" alt="">
+        </form>
+    </div>
+</body>
+</html>
